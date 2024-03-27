@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body background  */
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color: #130f40;
+}
+/* navber starts here  */
+#nev-img {
+    height: 50px;
+    width: 50px;
+  }
+  .email{
+    color: white;
+    margin-left: 10px;
+  }
+ .ankor{
+    text-decoration: none;
+ }
+  #navbar{
+    position: sticky;
+    top: 0;
+  }
+  .navbar ul li a{
+    color: white;
+    transition: .7s;
+  }
+  .navbar ul li a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.297);
+    border-radius: 20px;
+  }
+  /* hero-section starts here  */
+  #hero-section{
+    height: 80vh;
+  }
+  .hero-style{
+    line-height: 70px;
+  }
+  .hero-btn{
+    color: white;
+    text-decoration: none;
+    background-color:  rgba(238, 130, 238, 0.293);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: .4s;
+  }
+  .hero-btn:hover{
+    background-color:rgba(0, 0, 0, 0.297);
+  }
+  .hero-img{
+    height: 250px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transform: rotate(20dgr);
+   
+  }
+  .inner{
+    position: relative;
+  }
+  .child{
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.167) ;
+  padding: 20px;
+  border-radius: 10px;
+  right: 10;
+  bottom: 0;
+    
+  }
+  .fa-arrow-up{
+    color: white;
+    padding-left: 10px;
+  }
+  /* about section starts here  */
+  #about-section{
+    min-height: 80vh;
+  }
+  .about-text{
+    font-size: 25px;
+  }
+  /* service section starts  */
+  #service-section{
+    min-height: 100vh;
+  }
+  .service-work{
+    background-color: rgba(255, 255, 255, 0.167);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .3s;
+  }
+  .service-work:hover{
+    background-color:rgba(0, 0, 0, 0.297) ;
+    
+  }
+  /* skills section sarts here  */
+  #skills{
+    min-height: 100vh;
+  }
+#skill-container img{
+width: 100%;
+text-align: center;
+}
+#skill-container div{
+  width: 150px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.199);
+  border-radius: 10px;
+  transition: .4s;
+  flex-wrap: wrap;
+}
+#skill-container div:hover{
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.297);
+  
+}
+/* contact section starts here  */
+.form-style{
+  background-color:rgba(255, 255, 255, 0.199) ;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px;
+ 
+  
+}
+form label{
+  margin-bottom: 10px;
+}
+.form-box{
+ padding: 20px;
+ border-radius: 10px;
+ border: none;
+ background-color: #130f40;
+ width: 100%;
+}
+
+.form-box input[type=submit]{
+  width: 100px ;
+}
+.form-heading{
+  font-size: 40px;
+  text-shadow: 2px 2px 5px  violet;
+  font-family: cursive;
+}
+.submit-btn{
+  background-color: #130f40;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.phone-icon{
+  background-color: rgba(255, 255, 255, 0.199) ;
+  padding: 10px;
+  border-radius: 10px;
+  transition: .4s;
+}
+.phone-icon:hover{
+  background-color: rgba(0, 0, 0, 0.297);
+ 
+}
+/* footer starts here  */
+footer{
+  background-color:rgba(255, 255, 255, 0.199)  ;
+  padding: 30px;
+ 
+}
+footer .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li{
+ list-style-type: none;
+ margin: 15px;
+ display: flex;
+ justify-content: space-between;
+
+
+}
+footer ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+
+}
+footer ul li a:hover{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.297);
+  border-radius: 10px;
+ 
+  
+
+}
+.footer-img{
+  width: 100px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.footer-text{
+  color:black ;
+}
+
+/* media starts  */
+@media screen and (max-width:700px){
+  footer ul li a{
+    flex-direction: column;
+  }
+}
+  
+
+
+
+
+ 
+ 
+    
