@@ -38,7 +38,11 @@ body{
   /* hero-section starts here  */
   #hero-section{
     height: 80vh;
-  }
+    background-image: url(images/wave-haikei\ \(3\).png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
   .hero-style{
     line-height: 70px;
   }
@@ -59,28 +63,21 @@ body{
     width: 200px;
     margin-top: 20px;
     border-radius: 10px;
-    transform: rotate(20dgr);
+    transition: .4s;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.407), -2px -2px 5px rgba(255, 255, 255, 0.407);
    
   }
-  .inner{
-    position: relative;
-  }
-  .child{
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0.167) ;
-  padding: 20px;
-  border-radius: 10px;
-  right: 10;
-  bottom: 0;
+  .hero-img:hover{
     
+    transform: rotate(20deg);
+  
+   
   }
-  .fa-arrow-up{
-    color: white;
-    padding-left: 10px;
-  }
+ 
   /* about section starts here  */
   #about-section{
     min-height: 80vh;
+    background-color: #0066FF;
   }
   .about-text{
     font-size: 25px;
@@ -88,6 +85,10 @@ body{
   /* service section starts  */
   #service-section{
     min-height: 100vh;
+    background-image: url(images/wave-haikei\ \(4\).png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .service-work{
     background-color: rgba(255, 255, 255, 0.167);
@@ -97,7 +98,9 @@ body{
     transition: .3s;
   }
   .service-work:hover{
-    background-color:rgba(0, 0, 0, 0.297) ;
+   
+     background-color:#4605296c; 
+     box-shadow: 5px 5px 10px black, -5px -5px 10px black;
     
   }
   /* skills section sarts here  */
@@ -118,7 +121,9 @@ text-align: center;
 }
 #skill-container div:hover{
   transform: scale(1.1);
-  background-color: rgba(0, 0, 0, 0.297);
+  background-color:#4605296c; 
+ 
+  box-shadow: 5px 5px 10px black, -5px -5px 10px black;
   
 }
 /* contact section starts here  */
@@ -169,6 +174,10 @@ form label{
 footer{
   background-color:rgba(255, 255, 255, 0.199)  ;
   padding: 30px;
+  background-image: url(images/wave-haikei\ \(6\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
  
 }
 footer .container{
@@ -206,6 +215,21 @@ footer ul li a:hover{
 .footer-text{
   color:black ;
 }
+#scrollTop{
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.167) ;
+  padding: 20px;
+  border-radius: 10px;
+  right: 20px;
+  bottom: 20px;
+  color: white;
+    transition: .4s;
+  }
+#scrollTop:hover{
+  background-color:#4605296c; 
+     box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+    
+  }
 
 /* media starts  */
 @media screen and (max-width:700px){
